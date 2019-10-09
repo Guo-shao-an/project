@@ -39,4 +39,11 @@ public class AppTest
         assertEquals(expected,c.add(a,b));
         //assertTrue( true );
     }
+    public void testapp2(){
+        Calc c=new Calc();
+        int a=4;
+        int b=5;
+        int expected=a-b;
+        assertEquals(expected,c.subtract(a,b));
+}
 }
